@@ -2,6 +2,16 @@
 
 This repository contains example code snippets showing how Amazon Textract and other AWS services can be used to get insights from documents.
 
+## Start Workshop
+
+- Navigate to `Amazon SageMaker`.
+- Click on the `Notebook` section, and then on `Notebook instances`.
+- Click `Open Jupyter` to open the notebook.
+- Open `amazon-transcribe-textract-workshop/amazon-textract-workshop/python`
+- Open [Textract.ipynb](./python/Textract.ipynb)
+- Choose `conda_python3` Kernel.
+- Run the notebook while reading the instructions.  
+
 ## Usage
 
 python3 01-detect-text-local.py
