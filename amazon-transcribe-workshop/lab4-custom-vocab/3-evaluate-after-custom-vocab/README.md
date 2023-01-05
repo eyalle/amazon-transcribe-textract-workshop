@@ -1,7 +1,7 @@
----
-title: 'Evaluate after custom vocabulary'
+
+# Evaluate after custom vocabulary
 weight: 44
----
+
 
 Now, it's time to evaluate the accuracy after using custom vocabulary.
 
@@ -27,6 +27,6 @@ Now, it's time to evaluate the accuracy after using custom vocabulary.
 We’ve not only correctly transcribed custom formal nouns such as “Grindelwald” but also custom terms like “mini-fig” which are specific to LEGO toys. And look at that, we also were able to properly capitalize “LEGO” as it is spelled as a brand, along with proper casing for “Lotus Elise” as well.
 
 
-::alert[Custom vocabulary should be used in a targeted manner, meaning that the more specific a list of terms is when applied to specific audio recordings, the better the transcription result. We don’t recommend flooding a single vocabulary file with more than 300 words. The feature is available in all regions where Transcribe is available today.]
+Custom vocabulary should be used in a targeted manner, meaning that the more specific a list of terms is when applied to specific audio recordings, the better the transcription result. We don’t recommend flooding a single vocabulary file with more than 300 words. The feature is available in all regions where Transcribe is available today.
 
 Congrats, you have now completed Custom Vocabulary lab, time to move on to building Custom Language Models!
