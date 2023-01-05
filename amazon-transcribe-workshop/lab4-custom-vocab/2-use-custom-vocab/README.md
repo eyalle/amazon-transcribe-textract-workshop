@@ -3,7 +3,7 @@
 
 1. First, we will prepare a vocabulary file, which not only lists the custom terms (Phrase), but also indicates the corresponding pronunciations.
 
-    ::alert[ Refer to [create a new custom vocabulary file](https://docs.aws.amazon.com/transcribe/latest/dg/how-vocabulary.html)]
+    Refer to [create a new custom vocabulary file](https://docs.aws.amazon.com/transcribe/latest/dg/how-vocabulary.html)
 
     Using any text editor of your choice, create a .txt file that looks like below. In the text editor, configure the white bars to indicate when typing a tab for blanks where there are no inputs desired. Augment any of the words that were missed in the baseline transcription. Then, save the file as “paul-sample-vocab.txt”
 

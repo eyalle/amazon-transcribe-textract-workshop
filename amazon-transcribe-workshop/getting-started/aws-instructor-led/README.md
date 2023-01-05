@@ -32,5 +32,5 @@ The AWS Console will open in another tab or window.
 
 ![Open the AWS console](../../static/images/aws-account/img-console.png?width=40pc)
 
-::alert[This account will expire at the end of the workshop and all the resources created will be automatically deprovisioned. You will not be able to access this account after today.]
+This account will expire at the end of the workshop and all the resources created will be automatically deprovisioned. You will not be able to access this account after today.
 
