@@ -8,7 +8,7 @@ If you are attending an AWS hosted event, you will have access to an AWS account
 ## Prerequisites
 
 * Access to the 12 digit event access code distributed by an event operator as part of an AWS hosted event.
-* Sign in via [the Workshop Studio join url](https://catalog.us-east-1.prod.workshops.aws/join) or the one-click join event link provided by the event operator.
+* Sign in via [the Event Engine url](https://dashboard.eventengine.run/) or the one-click join event link provided by the event operator.
 
 ![Access the event](../../static/images/aws-account/img-join-aws-event.png?width=40pc)
 
