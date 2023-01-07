@@ -5,30 +5,66 @@
 
 If you are attending an AWS hosted event, you will have access to an AWS account with any optional pre-provisioned infrastructure and IAM policies needed to complete this workshop. The goal of this section is to help you access this AWS account. You may skip this section if you plan to use your own AWS account.
 
-## Prerequisites
+# Workshop Instructions
+_Note: This workshop will create an ephemeral AWS acccount for each attendee.  This ephemeral account is not accessible after the workshop.  You can, of course, clone this GitHub repo and reproduce the entire workshop in your own AWS Account._
 
-* Access to the 12 digit event access code distributed by an event operator as part of an AWS hosted event.
-* Sign in via [the Event Engine url](https://dashboard.eventengine.run/) or the one-click join event link provided by the event operator.
+## 0. Logout of All AWS Consoles Across All Browser Tabs
+If you do not logout of existing AWS Consoles, things will not work properly.
 
-![Access the event](../../static/images/aws-account/img-join-aws-event.png?width=40pc)
+![AWS Account Logout](img/aws-logout.png)
 
-* Carefully review the terms and conditions associated with this event.
+_Please logout of all AWS Console sessions in all browser tabs._
 
-![Agree to terms and conditions](../../static/images/aws-account/img-agree-conditions.png?width=40pc)
+## 1. Login to the Workshop Portal (aka Event Engine). 
+Open https://dashboard.eventengine.run/
 
-* Click `Join event`.
+Using the hash code you got from workshop admins, paste the event-hash-login that will be shared with you in the browser window. 
 
-## Best Practices
+Choose the Accept Terms & Login. 
 
-* Review the terms and conditions of the event. Do not upload any personal or confidential information in the account.
-* The AWS account will only be available for the duration of this workshop and you will not be able to retain access after the workshop is complete. Backup any materials you wish to keep access to after the workshop.
-* Any pre-provisioned infrastructure will be deployed to a specific region. Check your workshop content to determine whether other regions will be used.
+![Event Engine Terms and Conditions](img/event-engine-terms.png)
 
-## Accessing your AWS Account
+Choose OTP.
 
-After joining the event, you should see the page with event information and workshop details. You should also see a section titled "AWS account access" on the left navigation bar. You can use these options to access the temporary AWS account provided to you. Click on `Open AWS console` link on the bottom left.
+![Choose OTP](img/choose_otp.png)
 
-The AWS Console will open in another tab or window.
+Write the Email that the passcode will be sent to, and choose Send passcode.
+
+![write your email](img/one_time_email_passcode.png)
+
+Copy the One-time email passcode from your inbox and paste it here.
+
+![Paste One time code](img/paste_time_email_passcode.png)
+
+Choose AWS Console.
+
+![Event Engine Dashboard](img/event-engine-dashboard.png)
+
+## 2. Login to the **AWS Console**
+
+![Event Engine AWS Console](img/event-engine-aws-console.png)
+
+Take the defaults and click on **Open AWS Console**. This will open AWS Console in a new browser tab.
+
+If you see this message, you need to logout from any previously used AWS accounts.
+
+![AWS Account Logout](img/aws-logout.png)
+
+_Please logout of all AWS Console sessions in all browser tabs._
+
+Double-check that your account name is similar to `TeamRole/MasterKey` as follows:
+
+![IAM Role](img/teamrole-masterkey.png)
+
+If not, please logout of your AWS Console in all browser tabs and re-run the steps above!
+
+## 3. Launch Amazon Transcribe
+
+Open the [AWS Management Console](https://console.aws.amazon.com/console/home)
+
+**Note:** This workshop has been tested on the US East (N. Virginia) (us-east-1) region. Make sure that you see **N.Virginia** on the top right hand corner of your AWS Management Console. If you see a different region, click the dropdown menu and select US East (N. Virginia).
+
+In the AWS Console search bar, type `Transcribe` and select `Amazon Transcribe` to open the service console.
 
 ![Open the AWS console](../../static/images/aws-account/img-console.png?width=40pc)
 
