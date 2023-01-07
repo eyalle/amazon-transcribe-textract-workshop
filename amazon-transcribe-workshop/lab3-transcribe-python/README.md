@@ -11,7 +11,7 @@ You can create batch transcriptions using the URI of a media file located in an 
 
     ![Cloud Shell](../static/cloudshell-1.png)
 
-2. Copy the following code and save as a python file with .py extension on your local machine:
+2. Copy the following code and save as a python file `batch-transcribe.py` on your local machine:
 
 ```python
     import time
