@@ -65,7 +65,7 @@ NOTE:
 6. Upload the python file as shown below:
     ![upload file](../static/cloudshell-upload.png)
 
-7. You should find the uploaded file in the root of cloudshell-user. Then, execute the python code as shown below, you should see the path to the transcribed text after the execution.
+7. You should find the uploaded file in the root of cloudshell-user. Then, execute the code `python batch-transcribe.py` as shown below, you should see the path to the transcribed text after the execution.
     ![python execution](../static/cloudshell-cli-running.png)
 
 8. Now, copy the ouput of the command line execution which is the path to the output of the Transcribe API response. You can copy that output URL address to the browser to download the json response.
