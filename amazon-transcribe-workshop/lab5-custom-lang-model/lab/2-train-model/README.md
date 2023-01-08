@@ -22,7 +22,7 @@ In the following steps, you will train a CLM using base training data and a tuni
 
 ![](../static/1-Train-the-model.jpg)
 
-::alert[Amazon Transcribe service does the heavy lifting of automatically training a custom model for you.]
+:warning:[Amazon Transcribe service does the heavy lifting of automatically training a custom model for you.]
 
 8. To track the progress of the model training, go to the **Custom language models** page on the Amazon Transcribe console. The status indicates if the training is in progress, complete, or failed.
 

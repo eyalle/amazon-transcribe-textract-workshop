@@ -87,6 +87,6 @@ To give a qualitative visual comparison, we’ve taken a snippet of the transcri
 ✅ And the CLM built using training data and a tuning split performed approximately ~13% better.
 
 
-::alert[For more information about the general guidelines, see [Improving Domain-Specific Transcription Accuracy with Custom Language Models](https://docs.aws.amazon.com/transcribe/latest/dg/custom-language-models.html).]
+:warning:[For more information about the general guidelines, see [Improving Domain-Specific Transcription Accuracy with Custom Language Models](https://docs.aws.amazon.com/transcribe/latest/dg/custom-language-models.html).]
 
 Congrats, you have now completed the Custom langauge model lab!
