@@ -11,7 +11,7 @@ Before we begin, it’s important to distinguish between _training data_ and _tu
 ### Tuning data
 Meanwhile, human-annotated audio transcripts of actual phone calls or media content that are directly relevant to your use case can be used as tuning data.
 
-::alert[For more information about the difference between training and tuning data, see [Improving Domain-Specific Transcription Accuracy with Custom Language Models](https://docs.aws.amazon.com/transcribe/latest/dg/custom-language-models.html).]
+:warning: [For more information about the difference between training and tuning data, see [Improving Domain-Specific Transcription Accuracy with Custom Language Models](https://docs.aws.amazon.com/transcribe/latest/dg/custom-language-models.html).]
 
 ## Use case - Video Gaming
 >Like many domains, video gaming has its own set of technical jargon, syntax, and speech dynamics that may make the use of a general speech recognition engine suboptimal. To build a custom model, we first need data that’s representative of the domain. For this use case, we want free form text from the video gaming industry. We use a variety of publicly available information from a variety of sources about video gaming. 
@@ -20,7 +20,7 @@ Let's get started:
 
 1. Download training and tuning set from here [download](https://aws-ml-blog.s3.amazonaws.com/artifacts/Building-Custom-Language-Models/training_tuning_data.tar.gz) to follow along.
 
-::alert[NOTE: Keep in mind that the nature, quality, and quantity of your training data has a dramatic impact on the resultant custom model you build. All else equal, it’s better to have more data than less.]
+:warning: [NOTE: Keep in mind that the nature, quality, and quantity of your training data has a dramatic impact on the resultant custom model you build. All else equal, it’s better to have more data than less.]
 
 As a general guideline, your training and tuning datasets should meet the following parameters:
 -   Is in plain text (it’s not a file such as a Microsoft Word document, CSV file, or PDF).
