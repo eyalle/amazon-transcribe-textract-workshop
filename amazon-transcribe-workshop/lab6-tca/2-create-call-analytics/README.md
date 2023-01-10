@@ -22,33 +22,33 @@ Transcribe Call Analytics requires that the agent and the customer are recorded 
 
 1.  Navigate to Transcribe in AWS Console, select 'Call analytics jobs' under 'Amazon Transcribe Call Analytics' menu header on the left hand side.   
 
-    ![Creating a job](../static/tca-3.png)
+    ![Creating a job](../../static/tca-3.png)
 
 2.  Define the location of the audio file in S3, flagging channel #1 as the agent channel.
 
-    ![Creating a job](../static/tca-4.png)
+    ![Creating a job](../../static/tca-4.png)
 
 3.  Store the transcript in the default S3 bucket created by Transcribe. You could also use your own bucket if needed. Then, choose 'Create an IAM role' and specify a rolename prefix.
     
-    ![Create role](../static/tca-permissions.png)
+    ![Create role](../../static/tca-permissions.png)
 
 4.  Choose the Category that you created in the previous step:
     
-    ![Choose category](../static/call-analytics-categories.png)
+    ![Choose category](../../static/call-analytics-categories.png)
 
 5.  Click 'Create job' to start the job. 
 
 6.  It will take a minute or so to finish the job. Click on 'Call analytics jobs' section on the left menu. 
     
-    ![Check analytics job](../static/call-analytics-jobs.png)
+    ![Check analytics job](../../static/call-analytics-jobs.png)
 
 7.  The console contains a preview of the text transcript, as well as a link to the full JSON transcript.
 
-    ![Viewing the transcript](../static/tca-5.png)
+    ![Viewing the transcript](../../static/tca-5.png)
 
 8. As the agent used the proper welcome sentence in the first 15 seconds, the call is tagged with the category I created earlier.
 
-    ![Call categories](../static/tca-6.png)
+    ![Call categories](../../static/tca-6.png)
 
 ### Analyze the transcript:
 
