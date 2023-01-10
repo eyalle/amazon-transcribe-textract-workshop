@@ -71,4 +71,4 @@ NOTE:
 8. Now, copy the ouput of the command line execution which is the path to the output of the Transcribe API response. You can copy that output URL address to the browser to download the json response.
 
 
-:warning:[You can create streaming transcriptions using a streamed media file or a live media stream. Note that the standard AWS SDK for Python (Boto3) is not supported for Amazon Transcribe streaming. To start a streaming transcription using Python, use this [async Python SDK for Amazon Transcribe](https://github.com/awslabs/amazon-transcribe-streaming-sdk).]
+:warning: [You can create streaming transcriptions using a streamed media file or a live media stream. Note that the standard AWS SDK for Python (Boto3) is not supported for Amazon Transcribe streaming. To start a streaming transcription using Python, use this [async Python SDK for Amazon Transcribe](https://github.com/awslabs/amazon-transcribe-streaming-sdk).]

@@ -18,7 +18,7 @@ Pay attention to the words that are very specific to the domain in bold.
 
 We will use **Word Error Rate (WER)** [Word Error Rate](https://en.wikipedia.org/wiki/Word_error_rate)as a measure of accuracy. Lower the WER, higher the accuracy. You will go through measuring WER in this lab.
 
-:warning:[Note that this WER is not a representation of the Amazon Transcribe service performance. It is just one instance for a very specific and limited test example.]
+:warning: [Note that this WER is not a representation of the Amazon Transcribe service performance. It is just one instance for a very specific and limited test example.]
 
 
 

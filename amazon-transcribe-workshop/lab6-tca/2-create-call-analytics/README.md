@@ -8,7 +8,7 @@ Before we create the call analytics job, here's a use case that can benefit from
 ##### Use case - fictitious support call
 A lady calls her bank to report that she’s lost her credit and debit cards. The sound file is a stereo WAV file (16-bit, 8KHz) which can be downloaded from :link[here]{href="../static/audio/demo-call.mp3" action="download"}.
 
-::warning:{header="Important" type="info"}
+:warning: {header="Important" type="info"}
 Transcribe Call Analytics requires that the agent and the customer are recorded in their own channel. We’ll also need to tell which is the agent channel. In a stereo file, the left channel is usually the first channel (channel #0), and the right channel is the second one (channel #1).
 :::
 
